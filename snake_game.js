@@ -247,8 +247,8 @@ class Game {
     }
 }
 
-// Start the game
-window.onload = () => {
-    const game = new Game();
-    game.gameLoop();
-}; 
+// The game will now start when startGame() is called after payment
+// window.onload = () => {
+//     const game = new Game();
+//     game.gameLoop();
+// }; 
